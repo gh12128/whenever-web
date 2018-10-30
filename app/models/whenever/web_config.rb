@@ -5,7 +5,7 @@ module Whenever
     def initialize
       @schedule_file     = 'config/schedule.rb'
       @parent_controller = 'Whenever::WebController'
-      @layout            = 'admin'
+      @layout            = 'admin_whenever'
     end
 
     def parent_controller
