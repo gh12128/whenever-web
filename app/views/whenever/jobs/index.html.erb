@@ -11,7 +11,7 @@
         <th><%= t('whenever.interval') %></th>
         <th><%= t('whenever.hour') %></th>
         <th><%= t('whenever.roles') %></th>
-        <th><%= t('whenever.action') %></th>
+        <!-- <th><%#= t('whenever.action') %></th> -->
       </tr>
     </thead>
     <tbody>
@@ -21,7 +21,7 @@
         <td><%= job.interval %></td>
         <td><%= job.at %></td>
         <td><%= job.roles %></td>
-        <td><%= link_to t('whenever.run_now'), run_job_path(i), class: 'btn btn-danger', title: job.output %></td>
+        <!-- <td><%#= link_to t('whenever.run_now'), run_job_path(i), class: 'btn btn-danger', title: job.output %></td> -->
       </tr>
       <% end %>
     </tbody>

@@ -16,3 +16,16 @@ en:
     settings: Settings
     standard_log: Standard log
     task: Task
+  datetime:
+    distance_in_words:
+      less_than_x_seconds: 'less than %{count} seconds'
+      half_a_minute: 'half a minute'
+      less_than_x_minutes: 'less than %{count} minutes'
+      x_minutes: '%{count} minutes'
+      abount_x_hours: 'abount %{count} hours'
+      x_days: '%{count} days'
+      abount_x_mouths: 'abount %{count} mouths'
+      x_mouths: '%{count} mouths'
+      abount_x_years: 'abount %{count} years'
+      over_x_years: '%{count} years'
+      almost_x_years: 'almost %{count} years'

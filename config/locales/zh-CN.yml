@@ -1,0 +1,31 @@
+zh-CN:
+  whenever:
+    logs:
+      clear:
+        success: "%{kind} 日志 清理了!"
+    jobs:
+      run:
+        success: "任务 运行: %{command}"
+    action: 错左
+    cron_jobs: 定时 任务
+    error_log: 错误 日志
+    hour: 小时
+    interval: 间隔
+    roles: 角色
+    run_now: 现在 运行
+    settings: 配置
+    standard_log: 标准 日志
+    task: 任务
+  datetime:
+    distance_in_words:
+      less_than_x_seconds: '一秒内'
+      half_a_minute: '半分钟'
+      less_than_x_minutes: '小于一分钟'
+      x_minutes: '%{count}分钟'
+      abount_x_hours: '%{count}小时'
+      x_days: '%{count}天'
+      abount_x_mouths: '约%{count}月'
+      x_mouths: '%{count}月'
+      abount_x_years: '约%{count}年'
+      over_x_years: '%{count}年'
+      almost_x_years: '多于%{count}年'
